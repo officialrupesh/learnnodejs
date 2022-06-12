@@ -1,1 +1,1 @@
-this
+console.log(module);
