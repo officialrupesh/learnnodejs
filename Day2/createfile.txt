@@ -1,0 +1,9 @@
+<!-- The file system module has methods for creating new files -->
+
+    fs.appendfile() -> appends specified content to a file. if the file does not exist, the file will be created
+    fs.open()
+    fs.writefile()
+
+
+
+ 
