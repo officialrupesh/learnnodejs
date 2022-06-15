@@ -1,0 +1,22 @@
+NPM is a package manager for Node.js packages, or modules.
+What is Package?
+A package in Node.js contains all files that we need for a module.
+Modules are javascript libraries you can include in your project
+
+Download a Package?
+Open command line interface and tell NPM to download the package you want
+I want to download a package called "upper-case":
+
+Download "upper-case"":::::
+
+npm install upper-case
+
+NPM now create a folder named "node_modules", where the package will be placed.
+All package installed will be placed in the folder.
+Now the package will have C:\Users\PROJECT\node_modules\upper-case
+
+USING A PACKAGE
+-> Once the package is installed, it is ready to use 
+Include the "upper-case" package the same way we include other modules
+In this case
+var uc = require('upper-case');
