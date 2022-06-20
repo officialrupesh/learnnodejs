@@ -22,7 +22,7 @@
     */
 
         var events = require('events');
-        var eventEmitter = new events.eventEmitter();
+        var eventEmitter = new events.EventEmitter();
 
         //Create an event emitter
         var myEventHandler = function(){
